@@ -1,0 +1,51 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(127, 195, 173);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1298px;
+    height: 60px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+.btn-container .btn1 {
+    background-color: #018ABE;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.section1 {
+    width: 1296px;
+    height: 600px;
+    /* border: 1px solid black; */
+}
